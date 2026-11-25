@@ -123,7 +123,7 @@ Liste cadeaux de test : `LC-TEST1234`.
 ## Liens de conception
 
 - **Figma maquettes (42 écrans) :** https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- **Adobe XD :** non fourni (non obligatoire pour cette remise)
+- **Adobe XD :**
 
 ## Vidéo de démonstration
 

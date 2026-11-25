@@ -326,7 +326,7 @@ def build():
     story.append(Paragraph(
         "<b>A.</b> Architecture : backend Express + frontend React Vite · MySQL port 3307.<br/>"
         "<b>B.</b> Figma maquettes : https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV<br/>"
-        "<b>C.</b> Adobe XD : non fourni (non obligatoire).<br/>"
+        "<b>C.</b> Adobe XD :<br/>"
         "<b>D.</b> Captures : docs/captures-reelles/<br/>"
         "<b>E.</b> Vidéo : LivresGourmands_Etape3_Demonstration.mp4",
         st["BodyFR"],

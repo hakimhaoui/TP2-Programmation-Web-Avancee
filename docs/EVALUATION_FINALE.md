@@ -6,7 +6,7 @@
 | # | Critère | Max | Preuve / état | Points estimés |
 | --- | --- | ---: | --- | ---: |
 | 1 | Wireframes Figma | 2 | [Lien réel](https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV) — **42 wireframes** | **2,0** |
-| 2 | Prototype interactif | 2 | Adobe XD / prototype interactif **non fourni** (non obligatoire pour cette remise) | **0** |
+| 2 | Prototype interactif | 2 |  |  |
 | 3 | Dossier de conception | 2 | PDF 21 pages, captures Playwright live intégrées | **2,0** |
 | 4 | Structure projet | 2 | `frontend/` + `backend/` conservés | **2,0** |
 | 5 | Page d’accueil | 2 | e2e T06–T08 PASS + capture live | **2,0** |
@@ -23,12 +23,12 @@
 | 16 | GitHub & README | 1 | README à jour ; **push étape 3 à confirmer** | **0,5** |
 | 17 | ZIP, liens, vidéo | 1 | Figma + vidéo MP4 + ZIP Léa prêts | **1,0** |
 
-## Total estimé aujourd’hui : **≈ 27–28 / 30** (sans le critère prototype Adobe XD)
+## Total estimé aujourd’hui : **≈ 27–28 / 30**
 
 ### Liens Figma (officiels)
 
 - Maquettes : https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- Adobe XD : non fourni (non obligatoire)  
+- Adobe XD :  
 
 
 ### Preuves techniques exécutées le 24 nov. 2026

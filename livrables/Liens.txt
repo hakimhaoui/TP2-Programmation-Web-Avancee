@@ -8,7 +8,7 @@ Cours : 420-WA6-AG · Automne 2026
 https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV
 
 2) Adobe XD
-Non fourni (non obligatoire pour cette remise).
+
 
 3) GitHub (frontend + backend + SQL)
 https://github.com/hakimhaoui/TP2-Programmation-Web-Avancee

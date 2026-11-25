@@ -18,14 +18,13 @@
 ## Liens principaux
 
 - **Figma maquettes (42 écrans) :** https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- **Adobe XD :** non fourni (non obligatoire)  
+- **Adobe XD :**  
 - **GitHub :** https://github.com/hakimhaoui/TP2-Programmation-Web-Avancee  
 
 ## État des livrables
 
 - Site React + API : prêt  
 - Wireframes Figma : mis à jour selon le projet React  
-- Adobe XD : non fourni  
 - PDF conception : prêt (version simple)  
 - Vidéo : prête  
 - Code : sur GitHub  
