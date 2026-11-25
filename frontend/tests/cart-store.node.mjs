@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { createCartStore } from '../src/utils/cartStore.js';
+import { storageKey, sanitizeItems } from '../src/utils/cartStorage.js';
+const mem = new Map();
+globalThis.localStorage = { getItem: k => mem.get(k) ?? null, setItem: (k,v) => mem.set(k,v) };
+const book = {id: 1, titre:'Dune', prix: 10, stock: 3};
+const make = (id=1, allowed=true) => createCartStore(id, allowed);
+const qty = s => s.getSnapshot().items[0]?.quantite;
+test('isolation A/B, invité et retour au compte A', () => {mem.clear(); const a=make(1); a.addToCart(book,2); const b=make(2); assert.equal(qty(b),undefined); b.addToCart(book); assert.equal(qty(make(1)),2); assert.equal(qty(make(2)),1); assert.equal(qty(make(null)),undefined);});
+test('ancienne instance ne modifie jamais la clé du nouveau compte',()=>{mem.clear();const a=make(1),b=make(2); b.addToCart(book,2); a.addToCart(book); assert.equal(qty(make(2)),2);});
+test('quantités invalides refusées sans modification',()=>{mem.clear();const a=make();for(const v of [0,-1,0.5,1.5,NaN,Infinity,'',null,true])assert.equal(a.addToCart(book,v),false);assert.equal(a.addToCart(book),true);for(const v of [0,0.5,-1,'',true])assert.equal(a.updateQuantity(1,v),false);assert.equal(qty(a),1);});
+test('retour synchrone et stock avec appels consécutifs',()=>{mem.clear();const a=make();assert.equal(a.addToCart(book,2),true);assert.equal(a.addToCart(book,2),false);assert.equal(a.addToCart(book),true);assert.equal(qty(a),3);assert.equal(a.updateQuantity(1,4),false);assert.equal(a.updateQuantity(1,2),true);assert.equal(qty(a),2);});
+test('ouvrage absent, stock zéro et rôle interdit',()=>{mem.clear();const a=make();assert.equal(a.updateQuantity(99,1),false);assert.equal(a.addToCart({...book,stock:0}),false);const admin=make(3,false);assert.equal(admin.addToCart(book),false);assert.equal(admin.clearCart(),false);});
+test('restauration, suppression, nettoyage et JSON corrompu',()=>{mem.clear();const a=make();a.addToCart(book,2);assert.equal(qty(make()),2);a.removeFromCart(1);assert.equal(qty(make()),undefined);a.addToCart(book);a.clearCart();assert.equal(qty(make()),undefined);mem.set(storageKey(1),'bad json');assert.equal(qty(make()),undefined);assert.deepEqual(sanitizeItems([{ouvrage_id:1,quantite:.5,stock:3,prix:10}]),[]);});
+test('notification immédiate et désabonnement',()=>{mem.clear();const a=make();let n=0;const stop=a.subscribe(()=>n++);a.addToCart(book);assert.equal(n,1);stop();a.clearCart();assert.equal(n,1);});
