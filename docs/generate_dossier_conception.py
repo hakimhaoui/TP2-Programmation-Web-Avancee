@@ -326,8 +326,7 @@ def build():
     story.append(Paragraph(
         "<b>A.</b> Architecture : backend Express + frontend React Vite · MySQL port 3307.<br/>"
         "<b>B.</b> Figma maquettes : https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV<br/>"
-        "<b>C.</b> Prototype Figma (remplace Adobe XD) : "
-        "https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1<br/>"
+        "<b>C.</b> Adobe XD : non fourni (non obligatoire).<br/>"
         "<b>D.</b> Captures : docs/captures-reelles/<br/>"
         "<b>E.</b> Vidéo : LivresGourmands_Etape3_Demonstration.mp4",
         st["BodyFR"],

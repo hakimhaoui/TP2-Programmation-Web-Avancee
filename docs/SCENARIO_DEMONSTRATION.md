@@ -8,7 +8,7 @@
 
 1. Démarrer MySQL + API (`backend` → `npm run dev`).
 2. Démarrer le front (`frontend` → `npm run dev`).
-3. Ouvrir Figma maquettes + **prototype Figma** (remplace Adobe XD, accepté par l’enseignante).
+3. Ouvrir Figma maquettes.
 4. Ouvrir `docs/Dossier-conception.pdf`.
 5. Comptes seed prêts (ne pas afficher le mot de passe à l’écran) :
    - client@librairie.ca
@@ -17,25 +17,21 @@
 ## Liens Figma officiels
 
 - Maquettes : https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- Prototype : https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1  
 
 ## Minute par minute
 
 ### 0:00 – 0:20 — Présentation
 « Bonjour. Nous sommes Abdelhakim Haoui et Mohammed Amine El Marzouki.  
 Voici notre projet LivresGourmands.net pour l’étape 3 du cours 420-WA6-AG.  
-Nous allons montrer les maquettes, le prototype Figma, le dossier de conception, puis le site React relié à l’API. »
+Nous allons montrer les maquettes Figma, le dossier de conception, puis le site React relié à l’API. »
 
 ### 0:20 – 0:50 — Figma (wireframes)
 « Voici nos wireframes Figma.  
 À gauche, la version ordinateur. À droite, la version mobile.  
 On retrouve l’accueil, la fiche produit, le panier et l’espace administrateur. »
 
-### 0:50 – 1:20 — Prototype interactif Figma
-« Voici le prototype interactif Figma (accepté en remplacement d’Adobe XD).  
-Premier parcours : client, de l’accueil jusqu’au panier.  
-Deuxième parcours : ami, avec le code de la liste de cadeaux.  
-Troisième parcours : administrateur, vers le tableau de bord. »
+### 0:50 – 1:20 — Dossier de conception (suite wireframes / PDF)
+« On parcourt rapidement les écrans clés dans Figma, puis on ouvre le dossier PDF. »
 
 ### 1:20 – 1:45 — Dossier de conception
 « Voici le dossier de conception PDF.  

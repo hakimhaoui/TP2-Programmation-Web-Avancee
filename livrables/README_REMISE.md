@@ -8,7 +8,7 @@
 
 | Fichier | Description |
 | --- | --- |
-| `Liens.txt` | Figma (maquettes + prototype), GitHub, vidéo, PDF |
+| `Liens.txt` | Figma maquettes, GitHub, vidéo, PDF |
 | `Dossier-conception.pdf` | Dossier de conception (17 pages, version sobre) |
 | `LivresGourmands_Etape3_Demonstration.mp4` | Vidéo démo ~4 min 47 s, 1080p |
 | `LivresGourmands_Etape3_Demonstration.fr.srt` | Sous-titres FR |
@@ -17,17 +17,17 @@
 
 ## Liens principaux
 
-- **Figma maquettes (mises à jour) :** https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- **Prototype Figma** (remplace Adobe XD) : https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1  
+- **Figma maquettes (42 écrans) :** https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
+- **Adobe XD :** non fourni (non obligatoire)  
 - **GitHub :** https://github.com/hakimhaoui/TP2-Programmation-Web-Avancee  
 
 ## État des livrables
 
 - Site React + API : prêt  
 - Wireframes Figma : mis à jour selon le projet React  
-- Prototype Figma : 3 parcours (Client, Ami, Admin)  
+- Adobe XD : non fourni  
 - PDF conception : prêt (version simple)  
 - Vidéo : prête  
-- Code : sur GitHub (vérifier le push étape 3)  
+- Code : sur GitHub  
 
 Ce ZIP ne contient **pas** `node_modules` ni fichiers `.env`.
