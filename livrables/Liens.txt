@@ -6,22 +6,18 @@ Cours : 420-WA6-AG · Automne 2026
 
 1) Figma — maquettes / wireframes (42 écrans desktop + mobile)
 https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV
-(Wireframes mis à jour pour correspondre au site React actuel.
- Pack local : livrables/FIGMA_PRET_IMPORT/)
 
 2) Prototype interactif Figma (remplace Adobe XD — accepté par l’enseignante)
 https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1
 (20 écrans, 43 interactions, parcours Client / Ami / Administrateur)
 
-3) GitHub (frontend connecté à l’API)
+3) GitHub (frontend + backend + SQL)
 https://github.com/hakimhaoui/TP2-Programmation-Web-Avancee
-(Confirmer que le push de l’étape 3 est bien présent sur le dépôt)
 
-4) Vidéo de démonstration
-Fichier dans ce ZIP : LivresGourmands_Etape3_Demonstration.mp4
+4) Vidéo de démonstration — TERMINÉE
+Fichier : LivresGourmands_Etape3_Demonstration.mp4
 (~4 min 47 s, 1080p, sous-titres français incrustés)
-Sous-titres séparés : LivresGourmands_Etape3_Demonstration.fr.srt
 
 5) Dossier de conception PDF
-Fichier dans ce ZIP : Dossier-conception.pdf
-(Version sobre, 17 pages, captures Playwright)
+Fichier : Dossier-conception.pdf
+(17 pages, version sobre, captures Playwright)
