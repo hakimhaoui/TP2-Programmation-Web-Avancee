@@ -1,0 +1,105 @@
+{
+  "duration": 242,
+  "cues": [
+    {
+      "start": 0,
+      "end": 18,
+      "text": "Bonjour. Nous sommes Abdelhakim Haoui et Mohammed Amine El Marzouki.\nVoici LivresGourmands.net pour l’étape 3 du cours 420-WA6-AG."
+    },
+    {
+      "start": 18,
+      "end": 34,
+      "text": "Voici nos wireframes Figma : 42 maquettes, versions ordinateur et mobile.\nAccueil, fiche produit, panier et espace administrateur."
+    },
+    {
+      "start": 34,
+      "end": 42,
+      "text": "Lien Figma réel : https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV"
+    },
+    {
+      "start": 42,
+      "end": 60,
+      "text": "Voici le prototype interactif Figma, accepté à la place d’Adobe XD.\n20 écrans, 43 interactions, trois parcours : Client, Ami et Administrateur."
+    },
+    {
+      "start": 60,
+      "end": 68,
+      "text": "Prototype : https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1"
+    },
+    {
+      "start": 68,
+      "end": 92,
+      "text": "Voici le dossier de conception PDF actualisé.\nIl suit le modèle : introduction, cahier des charges, arborescence, wireframes, planche et charte."
+    },
+    {
+      "start": 92,
+      "end": 108,
+      "text": "Voici le site React. Le logo LG et la navigation sont visibles.\nLes ouvrages viennent réellement de l’API /api/ouvrages."
+    },
+    {
+      "start": 108,
+      "end": 120,
+      "text": "On voit les prix, les stocks, les catégories et le carrousel à la une."
+    },
+    {
+      "start": 120,
+      "end": 130,
+      "text": "J’ouvre une fiche produit dynamique : titre, image, prix, stock et avis."
+    },
+    {
+      "start": 130,
+      "end": 140,
+      "text": "Le panier affiche les articles. Je peux modifier les quantités."
+    },
+    {
+      "start": 140,
+      "end": 152,
+      "text": "Après actualisation, le panier est toujours là grâce à localStorage."
+    },
+    {
+      "start": 152,
+      "end": 162,
+      "text": "Parcours ami : consultation d’une liste cadeaux avec un code personnel."
+    },
+    {
+      "start": 162,
+      "end": 172,
+      "text": "Je suis connecté en administrateur. Voici le tableau de bord."
+    },
+    {
+      "start": 172,
+      "end": 182,
+      "text": "Liste des ouvrages : lecture dynamique depuis l’API."
+    },
+    {
+      "start": 182,
+      "end": 192,
+      "text": "Formulaire d’ajout / modification d’ouvrage (CRUD)."
+    },
+    {
+      "start": 192,
+      "end": 204,
+      "text": "Consultation des commandes. Les droits sont aussi vérifiés côté serveur."
+    },
+    {
+      "start": 204,
+      "end": 216,
+      "text": "Sur mobile, le menu hamburger apparaît et les cartes s’empilent correctement."
+    },
+    {
+      "start": 216,
+      "end": 224,
+      "text": "Version tablette : mise en page responsive."
+    },
+    {
+      "start": 224,
+      "end": 230,
+      "text": "Et de nouveau en bureau (1920×1080)."
+    },
+    {
+      "start": 230,
+      "end": 242,
+      "text": "Merci. Le code est sur GitHub, le dossier PDF est fourni,\net les liens Figma sont dans Liens.txt."
+    }
+  ]
+}

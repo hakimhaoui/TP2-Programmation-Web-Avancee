@@ -1,0 +1,152 @@
+[
+    {
+        "id":  "T01",
+        "desc":  "Backend health",
+        "ok":  true,
+        "detail":  "{\"statut\":\"ok\"}"
+    },
+    {
+        "id":  "T02",
+        "desc":  "MySQL via /api/ouvrages",
+        "ok":  true,
+        "detail":  "resultats=4"
+    },
+    {
+        "id":  "T05",
+        "desc":  "GET /api/ouvrages",
+        "ok":  true,
+        "detail":  "prix=True stock\u003e0=True ruptureHidden=True count=4"
+    },
+    {
+        "id":  "T07",
+        "desc":  "Categories",
+        "ok":  true,
+        "detail":  "count=4 names=Histoire,Informatique,Roman,Science-Fiction"
+    },
+    {
+        "id":  "T08",
+        "desc":  "Search Dune",
+        "ok":  false,
+        "detail":  "resultats=1"
+    },
+    {
+        "id":  "T09",
+        "desc":  "Fiche ouvrage 1",
+        "ok":  true,
+        "detail":  "titre=Le Petit Prince avis=1 commentaires=1"
+    },
+    {
+        "id":  "T10",
+        "desc":  "Ouvrage inexistant",
+        "ok":  true,
+        "detail":  "HTTP 404"
+    },
+    {
+        "id":  "T21",
+        "desc":  "Produit epuise public",
+        "ok":  true,
+        "detail":  "HTTP 404"
+    },
+    {
+        "id":  "T23",
+        "desc":  "Login invalide",
+        "ok":  false,
+        "detail":  "HTTP 400"
+    },
+    {
+        "id":  "T22",
+        "desc":  "Login client",
+        "ok":  true,
+        "detail":  "role=client"
+    },
+    {
+        "id":  "T28",
+        "desc":  "Login admin",
+        "ok":  true,
+        "detail":  "role=administrateur"
+    },
+    {
+        "id":  "T11base",
+        "desc":  "GET panier client",
+        "ok":  true,
+        "detail":  "items=1 total=24.95"
+    },
+    {
+        "id":  "T29",
+        "desc":  "Create ouvrage test",
+        "ok":  true,
+        "detail":  "id=6 isbn=978TEST2509213"
+    },
+    {
+        "id":  "T30",
+        "desc":  "Update ouvrage test",
+        "ok":  true,
+        "detail":  "prix=15.50 stock=3"
+    },
+    {
+        "id":  "T31",
+        "desc":  "Delete ouvrage test",
+        "ok":  true,
+        "detail":  "Ouvrage supprime"
+    },
+    {
+        "id":  "T32",
+        "desc":  "Commandes admin",
+        "ok":  true,
+        "detail":  "count=1"
+    },
+    {
+        "id":  "T_LISTE",
+        "desc":  "Liste cadeaux code",
+        "ok":  true,
+        "detail":  "nom=Anniversaire de Client Test items=1"
+    },
+    {
+        "id":  "T27",
+        "desc":  "Client refuse /users",
+        "ok":  true,
+        "detail":  "HTTP 403"
+    },
+    {
+        "id":  "T28b",
+        "desc":  "Admin /users",
+        "ok":  true,
+        "detail":  "count=4"
+    },
+    {
+        "id":  "T26",
+        "desc":  "Admin sans token",
+        "ok":  true,
+        "detail":  "HTTP 401"
+    },
+    {
+        "id":  "T_REG",
+        "desc":  "Inscription",
+        "ok":  true,
+        "detail":  "email=qa_1503653236@test.ca"
+    },
+    {
+        "id":  "T11",
+        "desc":  "Ajout panier API",
+        "ok":  false,
+        "detail":  "total=24.95"
+    },
+    {
+        "id":  "T13",
+        "desc":  "Modif quantite API",
+        "ok":  true,
+        "detail":  "quantite=2"
+    },
+    {
+        "id":  "T14",
+        "desc":  "Suppression panier API",
+        "ok":  true,
+        "detail":  "items=0"
+    },
+    {
+        "id":  "T33",
+        "desc":  "API indisponible",
+        "ok":  true,
+        "detail":  "Le délai de l’opération a expiré."
+    }
+]

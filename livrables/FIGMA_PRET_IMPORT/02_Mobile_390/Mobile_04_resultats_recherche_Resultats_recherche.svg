@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <title>Résultats</title>
+  <rect width="390" height="844" fill="#F5F5F5"/>
+
+  <rect x="0" y="0" width="390" height="56" rx="0" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <rect x="12" y="10" width="36" height="36" rx="8" fill="#E8E8E8" stroke="#BBBBBB"/>
+  <text x="30" y="33" font-family="Arial" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">LG</text>
+  <text x="56" y="28" font-family="Arial" font-size="13" fill="#222222" text-anchor="start" font-weight="bold">LivresGourmands</text>
+  <text x="56" y="42" font-family="Arial" font-size="9" fill="#666666" text-anchor="start">Librairie en ligne</text>
+  <rect x="340" y="16" width="30" height="24" rx="4" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <text x="355" y="33" font-family="Arial" font-size="14" fill="#222222" text-anchor="middle">☰</text>
+  <line x1="0" y1="56" x2="390" y2="56" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="16" y="90" font-family="Arial" font-size="20" fill="#222222" text-anchor="start" font-weight="bold">Résultats</text>
+  <rect x="16" y="110" width="358" height="520" rx="8" fill="#FFFFFF" stroke="#BBBBBB"/>
+<text x="30" y="150" font-family="Arial" font-size="13" fill="#222222" text-anchor="start">Liste de cartes ouvrages</text><text x="30" y="178" font-family="Arial" font-size="13" fill="#666666" text-anchor="start">(données API)</text>
+  <rect x="0" y="780" width="390" height="60" rx="0" fill="#E8E8E8" stroke="#BBBBBB"/>
+  <text x="16" y="804" font-family="Arial" font-size="11" fill="#666666" text-anchor="start">LivresGourmands.net</text>
+  <text x="16" y="822" font-family="Arial" font-size="10" fill="#666666" text-anchor="start">Accueil · Panier · Connexion</text>
+</svg>

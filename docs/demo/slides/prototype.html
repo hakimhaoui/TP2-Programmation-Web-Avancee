@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Prototype Figma — 3 parcours</title>
+  <style>
+    body { margin: 0; min-height: 100vh; background: #163528; color: #F8F5EF; font-family: Segoe UI, Arial, sans-serif; padding: 32px 40px 90px; }
+    h1 { font-family: Georgia, serif; font-size: 40px; margin: 0 0 8px; }
+    .meta { opacity: .9; font-size: 18px; margin-bottom: 10px; }
+    .link { color: #f0c9b8; font-size: 14px; word-break: break-all; margin-bottom: 28px; }
+    .row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .col { background: rgba(248,245,239,.08); border: 1px solid rgba(248,245,239,.2); border-radius: 14px; padding: 16px; }
+    .col h2 { margin: 0 0 12px; font-size: 22px; color: #F8F5EF; }
+    .col p { margin: 0 0 14px; font-size: 15px; opacity: .9; min-height: 48px; }
+    .steps { display: flex; flex-direction: column; gap: 10px; }
+    .step { background: #F8F5EF; color: #214E3B; border-radius: 10px; overflow: hidden; border: 1px solid #DDD6C8; }
+    .step img { width: 100%; height: 150px; object-fit: cover; object-position: top; display: block; background: #fff; }
+    .step span { display: block; padding: 8px 10px; font-size: 13px; font-weight: 600; }
+    .badge { display: inline-block; background: #B45335; color: #fff; border-radius: 999px; padding: 4px 10px; font-size: 12px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Prototype interactif Figma</h1>
+  <p class="meta">20 écrans · 43 interactions · remplace Adobe XD (accepté par l’enseignante)</p>
+  <p class="link">https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1</p>
+  <div class="row">
+    <section class="col">
+      <div class="badge">Parcours Client</div>
+      <h2>Client</h2>
+      <p>Accueil → fiche → panier → livraison → confirmation</p>
+      <div class="steps" id="client"></div>
+    </section>
+    <section class="col">
+      <div class="badge">Parcours Ami</div>
+      <h2>Ami</h2>
+      <p>Code personnel → consultation liste cadeaux</p>
+      <div class="steps" id="ami"></div>
+    </section>
+    <section class="col">
+      <div class="badge">Parcours Admin</div>
+      <h2>Administrateur</h2>
+      <p>Connexion → dashboard → ouvrages → commandes</p>
+      <div class="steps" id="admin"></div>
+    </section>
+  </div>
+  <script>
+    const D = '../../../livrables/FIGMA_PRET_IMPORT/01_Desktop_1440/';
+    const fill = (id, items) => {
+      const el = document.getElementById(id);
+      el.innerHTML = items.map(([f, t]) => `<div class="step"><img src="${D}${f}" alt="${t}" /><span>${t}</span></div>`).join('');
+    };
+    fill('client', [
+      ['Desktop_01_accueil_Accueil.svg', '1. Accueil'],
+      ['Desktop_05_fiche_ouvrage_Fiche_ouvrage.svg', '2. Fiche ouvrage'],
+      ['Desktop_10_panier_Panier.svg', '3. Panier'],
+    ]);
+    fill('ami', [
+      ['Desktop_12_saisie_code_personnel_Saisie_code_personnel.svg', '1. Saisie du code'],
+      ['Desktop_13_consultation_cadeaux_Consultation_cadeaux.svg', '2. Liste cadeaux'],
+    ]);
+    fill('admin', [
+      ['Desktop_06_connexion_Connexion.svg', '1. Connexion'],
+      ['Desktop_18_dashboard_admin_Dashboard_admin.svg', '2. Dashboard'],
+      ['Desktop_19_liste_ouvrages_admin_Liste_ouvrages_admin.svg', '3. CRUD ouvrages'],
+    ]);
+  </script>
+</body>
+</html>

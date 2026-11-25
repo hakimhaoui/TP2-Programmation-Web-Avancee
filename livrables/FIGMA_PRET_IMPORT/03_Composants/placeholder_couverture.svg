@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="Couverture indisponible">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#214E3B"/>
+      <stop offset="100%" stop-color="#3d6b55"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="520" fill="url(#g)"/>
+  <rect x="36" y="40" width="328" height="440" rx="8" fill="none" stroke="#F8F5EF" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="200" y="250" text-anchor="middle" fill="#F8F5EF" font-family="Georgia, serif" font-size="28">LivresGourmands</text>
+  <text x="200" y="290" text-anchor="middle" fill="#F8F5EF" font-opacity="0.8" font-family="Arial, sans-serif" font-size="16">Image non disponible</text>
+</svg>

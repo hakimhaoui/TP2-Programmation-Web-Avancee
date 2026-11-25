@@ -1,0 +1,78 @@
+1
+00:00:00,000 --> 00:00:18,000
+Bonjour. Nous sommes Abdelhakim Haoui et Mohammed Amine El Marzouki.
+Voici LivresGourmands.net pour l’étape 3 du cours 420-WA6-AG.
+
+2
+00:00:18,000 --> 00:00:42,000
+Voici nos wireframes Figma : 42 maquettes, versions ordinateur et mobile.
+Accueil, fiche produit, panier et espace administrateur.
+
+3
+00:00:42,000 --> 00:01:10,000
+Voici le prototype interactif Figma, accepté à la place d’Adobe XD.
+20 écrans, 43 interactions, trois parcours : Client, Ami et Administrateur.
+
+4
+00:01:10,000 --> 00:01:34,000
+Voici le dossier de conception PDF actualisé.
+Il suit le modèle : introduction, cahier des charges, arborescence, wireframes, planche et charte.
+
+5
+00:01:34,000 --> 00:01:50,000
+Voici le site React. Le logo LG et la navigation sont visibles.
+Les ouvrages viennent réellement de l’API /api/ouvrages.
+
+6
+00:01:50,000 --> 00:02:02,000
+On voit les prix, les stocks, les catégories et le carrousel à la une.
+
+7
+00:02:02,000 --> 00:02:12,000
+J’ouvre une fiche produit dynamique : titre, image, prix, stock et avis.
+
+8
+00:02:12,000 --> 00:02:22,000
+Le panier affiche les articles. Je peux modifier les quantités.
+
+9
+00:02:22,000 --> 00:02:34,000
+Après actualisation, le panier est toujours là grâce à localStorage.
+
+10
+00:02:34,000 --> 00:02:44,000
+Parcours ami : consultation d’une liste cadeaux avec un code personnel.
+
+11
+00:02:44,000 --> 00:02:54,000
+Je suis connecté en administrateur. Voici le tableau de bord.
+
+12
+00:02:54,000 --> 00:03:04,000
+Liste des ouvrages : lecture dynamique depuis l’API.
+
+13
+00:03:04,000 --> 00:03:14,000
+Formulaire d’ajout / modification d’ouvrage (CRUD).
+
+14
+00:03:14,000 --> 00:03:26,000
+Consultation des commandes. Les droits sont aussi vérifiés côté serveur.
+
+15
+00:03:26,000 --> 00:03:38,000
+Sur mobile, le menu hamburger apparaît et les cartes s’empilent correctement.
+
+16
+00:03:38,000 --> 00:03:46,000
+Version tablette : mise en page responsive.
+
+17
+00:03:46,000 --> 00:03:52,000
+Et de nouveau en bureau (1920×1080).
+
+18
+00:03:52,000 --> 00:04:04,000
+Merci. Le code est sur GitHub, le dossier PDF est fourni,
+et les liens Figma sont dans Liens.txt.
+

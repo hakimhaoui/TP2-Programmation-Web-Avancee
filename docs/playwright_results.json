@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-11-25T20:36:51.118Z",
+  "results": [
+    {
+      "id": "T06",
+      "ok": true,
+      "detail": "cartes=4"
+    },
+    {
+      "id": "T07ui",
+      "ok": true,
+      "detail": "filtre Science-Fiction visible"
+    },
+    {
+      "id": "T08ui",
+      "ok": true,
+      "detail": "apres filtre SF cartes=1"
+    },
+    {
+      "id": "T09ui",
+      "ok": true,
+      "detail": "fiche produit"
+    },
+    {
+      "id": "T10ui",
+      "ok": true,
+      "detail": "ouvrage inexistant"
+    },
+    {
+      "id": "T23ui",
+      "ok": true,
+      "detail": "login invalide message"
+    },
+    {
+      "id": "T22ui",
+      "ok": true,
+      "detail": "role=client"
+    },
+    {
+      "id": "T11ui",
+      "ok": true,
+      "detail": "ajout panier"
+    },
+    {
+      "id": "T15ui",
+      "ok": true,
+      "detail": "total panier affiché"
+    },
+    {
+      "id": "T16",
+      "ok": true,
+      "detail": "localStorage panier présent"
+    },
+    {
+      "id": "T17",
+      "ok": true,
+      "detail": "persistance apres refresh"
+    },
+    {
+      "id": "T13ui",
+      "ok": true,
+      "detail": "quantite modifiee"
+    },
+    {
+      "id": "T14ui",
+      "ok": true,
+      "detail": "suppression cliquee"
+    },
+    {
+      "id": "T_LISTE_UI",
+      "ok": true,
+      "detail": "liste cadeaux"
+    },
+    {
+      "id": "T27ui",
+      "ok": true,
+      "detail": "url=http://localhost:5173/"
+    },
+    {
+      "id": "T28ui",
+      "ok": true,
+      "detail": "role=administrateur"
+    },
+    {
+      "id": "T28dash",
+      "ok": true,
+      "detail": "dashboard"
+    },
+    {
+      "id": "T_ADMIN_LIST",
+      "ok": true,
+      "detail": "liste ouvrages admin"
+    },
+    {
+      "id": "T29ui",
+      "ok": true,
+      "detail": "url=http://localhost:5173/admin/ouvrages"
+    },
+    {
+      "id": "T29ui_list",
+      "ok": true,
+      "detail": "ouvrage QA visible"
+    },
+    {
+      "id": "T30ui",
+      "ok": true,
+      "detail": "modification soumise"
+    },
+    {
+      "id": "T31ui",
+      "ok": true,
+      "detail": "suppression QA"
+    },
+    {
+      "id": "T32ui",
+      "ok": true,
+      "detail": "page commandes"
+    },
+    {
+      "id": "T35",
+      "ok": true,
+      "detail": "menu hamburger mobile"
+    },
+    {
+      "id": "T36",
+      "ok": true,
+      "detail": "tablette"
+    },
+    {
+      "id": "T37",
+      "ok": true,
+      "detail": "desktop nav"
+    },
+    {
+      "id": "T26ui",
+      "ok": true,
+      "detail": "redirect=http://localhost:5173/connexion"
+    },
+    {
+      "id": "T39",
+      "ok": true,
+      "detail": "aucune erreur JS applicative"
+    }
+  ]
+}

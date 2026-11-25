@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024">
+  <rect width="1440" height="1024" fill="#ffffff"/>
+  <rect x="0" y="0" width="1440" height="72" fill="#f0f0f0" stroke="#222"/>
+  <rect x="40" y="18" width="160" height="36" fill="#ddd" stroke="#222"/>
+  <text x="50" y="42" font-family="Arial" font-size="14" fill="#111">Logo / Marque</text>
+  <rect x="420" y="22" width="420" height="28" fill="#fff" stroke="#222"/>
+  <text x="430" y="42" font-family="Arial" font-size="12" fill="#555">Champ recherche</text>
+  <rect x="1100" y="22" width="80" height="28" fill="#fff" stroke="#222"/>
+  <text x="1112" y="42" font-family="Arial" font-size="12" fill="#111">Compte</text>
+  <rect x="1200" y="22" width="80" height="28" fill="#fff" stroke="#222"/>
+  <text x="1218" y="42" font-family="Arial" font-size="12" fill="#111">Panier</text>
+  <rect x="40" y="100" width="1360" height="120" fill="#f7f7f7" stroke="#222"/>
+  <text x="60" y="160" font-family="Arial" font-size="28" fill="#111">Accueil</text>
+  <text x="60" y="190" font-family="Arial" font-size="14" fill="#444">Wireframe basse fidelite desktop 1440px — 01_accueil</text>
+  <rect x="40" y="250" width="300" height="520" fill="#fafafa" stroke="#222"/>
+  <text x="60" y="280" font-family="Arial" font-size="14" fill="#111">Zone navigation / filtres</text>
+  <rect x="60" y="300" width="260" height="28" fill="#fff" stroke="#666"/>
+  <rect x="60" y="344" width="260" height="28" fill="#fff" stroke="#666"/>
+  <rect x="60" y="388" width="260" height="28" fill="#fff" stroke="#666"/>
+  <rect x="360" y="250" width="1040" height="520" fill="#fafafa" stroke="#222"/>
+  <text x="380" y="280" font-family="Arial" font-size="14" fill="#111">Zone contenu principal</text>
+  <rect x="380" y="300" width="300" height="180" fill="#fff" stroke="#666"/>
+  <rect x="700" y="300" width="300" height="180" fill="#fff" stroke="#666"/>
+  <rect x="1020" y="300" width="300" height="180" fill="#fff" stroke="#666"/>
+  <rect x="380" y="500" width="200" height="40" fill="#e8e8e8" stroke="#222"/>
+  <text x="410" y="525" font-family="Arial" font-size="13" fill="#111">Action primaire</text>
+  <rect x="0" y="940" width="1440" height="84" fill="#f0f0f0" stroke="#222"/>
+  <text x="60" y="990" font-family="Arial" font-size="14" fill="#111">Pied de page — liens secondaires</text>
+</svg>

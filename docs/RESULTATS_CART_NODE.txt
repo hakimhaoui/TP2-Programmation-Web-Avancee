@@ -1,0 +1,13 @@
+npm run test:cart:node — 24 novembre 2026
+
+✔ isolation A/B, invité et retour au compte A
+✔ ancienne instance ne modifie jamais la clé du nouveau compte
+✔ quantités invalides refusées sans modification
+✔ retour synchrone et stock avec appels consécutifs
+✔ ouvrage absent, stock zéro et rôle interdit
+✔ restauration, suppression, nettoyage et JSON corrompu
+✔ notification immédiate et désabonnement
+
+tests 7
+pass 7
+fail 0
