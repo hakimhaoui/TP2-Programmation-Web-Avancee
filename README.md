@@ -123,7 +123,7 @@ Liste cadeaux de test : `LC-TEST1234`.
 ## Liens de conception
 
 - **Figma maquettes (42 écrans) :** https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV  
-- **Prototype Figma** (remplace Adobe XD, accepté) : https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1  
+- **Adobe XD :** non fourni (non obligatoire pour cette remise)
 
 ## Vidéo de démonstration
 

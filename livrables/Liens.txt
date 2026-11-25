@@ -7,9 +7,8 @@ Cours : 420-WA6-AG · Automne 2026
 1) Figma — maquettes / wireframes (42 écrans desktop + mobile)
 https://www.figma.com/design/nDpTL4OngsUY3hvtL7VznV
 
-2) Prototype interactif Figma (remplace Adobe XD — accepté par l’enseignante)
-https://www.figma.com/proto/nDpTL4OngsUY3hvtL7VznV/LivresGourmands.net-%E2%80%93-%C3%89tape-3?node-id=0-1&t=fRl4HC7UrcVBkHtB-1
-(20 écrans, 43 interactions, parcours Client / Ami / Administrateur)
+2) Adobe XD
+Non fourni (non obligatoire pour cette remise).
 
 3) GitHub (frontend + backend + SQL)
 https://github.com/hakimhaoui/TP2-Programmation-Web-Avancee
